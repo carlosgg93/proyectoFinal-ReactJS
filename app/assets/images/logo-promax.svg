@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg  PUBLIC '-//W3C//DTD SVG 1.1//EN'  'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'>
+<svg style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" xml:space="preserve" height="33px" width="190px" clip-rule="evenodd" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400 246">
+ <defs>
+  <style type="text/css">
+   <![CDATA[
+    .str0 {stroke:black;stroke-width:0.878775}
+    .str1 {stroke:red;stroke-width:0.878775}
+    .fil3 {fill:black}
+    .fil2 {fill:red}
+    .fil0 {fill:white}
+    .fil1 {fill:black;fill-rule:nonzero}
+   ]]>
+  </style>
+ </defs>
+ <g id="Capa_x0020_1">
+  <g id="_279207360">
+   <polygon points="0 0 1400 0 1400 246 0 246" class="fil0 str0"/>
+   <path class="fil1 str0" d="m435 180v-110h70c18 0 29 1 33 1s7 2 10 4 5 5 7 8c2 5 4 12 4 22 0 7-1 13-2 18-1 4-3 8-6 10-3 3-6 4-9 5s-8 1-15 2h-21-55v42h-15zm15-55h55c13 0 22 0 25-1 3 0 6-1 8-3 2-1 3-3 3-6 1-3 1-6 1-11 0-6 0-10-1-12l-3-6c-2-2-5-3-8-3s-12-1-26-1h-55v43zm122 55v-110h69c19 0 31 1 36 1 9 1 15 5 19 12 2 5 3 11 3 20 0 6 0 11-1 15-1 3-2 6-4 8-3 3-7 5-13 7 5 1 9 3 11 5s3 5 4 8 1 9 1 19v16h-15v-11c0-9 0-15-1-19-1-7-5-11-12-12-3 0-5-1-7-1h-22-54v42h-15zm15-55h54c14 0 24 0 28-1 4 0 7-1 10-3 4-2 6-9 6-18 0-8-2-14-5-16-2-2-6-3-11-3s-14-1-27-1h-54v42zm199-55c19 0 32 1 40 2s13 4 17 7c2 2 4 5 5 8s2 7 3 13c1 7 1 16 1 26 0 14-1 24-2 31s-3 12-7 15c-3 3-9 6-16 7s-20 2-36 2h-28c-10 0-17-1-20-1-5-1-10-1-13-3-3-1-6-3-8-6-3-3-5-8-7-15-1-6-2-17-2-32 0-18 1-30 4-37 3-9 10-14 20-15s26-2 49-2zm-8 13c-15 0-27 1-34 2-4 1-7 2-9 4s-3 4-4 8c-1 6-2 15-2 27s0 21 1 27 2 9 4 11c1 2 3 3 6 3 3 1 7 1 13 2 9 1 20 1 33 1 18 0 31-1 39-2 6-1 10-5 11-11 1-7 2-16 2-28 0-15-1-25-2-31s-5-10-13-11c-4-1-9-1-14-1h-31zm91-13h29l60 94 59-94h30v110h-15v-97h-6l-62 97h-12l-62-97h-6v97h-15v-110zm321 110l-13-23h-89l-13 23h-17l63-110h24l62 110h-16zm-20-36l-34-61h-6l-35 61h75zm49-74h21l48 47 49-47h22l-57 53 60 58h-21l-53-51-52 51h-22l61-58-55-53z"/>
+   <path class="fil2 str1" d="m226 26l184 184 17 17-200-67-200 67 200-200zm0 10v59 61l179 60-179-121-180 121 180-60 180 60-180-180z"/>
+   <path class="fil3 str0" d="m16 16v215h1369v-215h-1369zm-15-15h1399v246h-1399v-246z"/>
+  </g>
+ </g>
+</svg>

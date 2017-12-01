@@ -10,7 +10,7 @@ module.exports = {
 		app: PATHS.app,
 	},
 	output: {
-		path: PATHS.build,
+		path: PATHS.app,
 		filename: '[name].js',
 	},
 	plugins: [
@@ -30,8 +30,12 @@ module.exports = {
 			}
 		},
 		// {test: /\.html$/,loader: 'file?name=[name].[ext]'},
-        // {test: /\.css$/, loader: 'style-loader!css-loader'},
-        // {test: /\.(jpe?g|png|gif|svg)$/i, loader: "file-loader?name=./app/assets/images/[name].[ext]"},
+        {test: /\.css$/,use: [
+          { loader: "style-loader" },
+          { loader: "css-loader" }
+        ]},
+        {test: /\.(jpe?g|png|gif|svg|jpg)$/i, loader: "file-loader?name=./assets/images/[name].[ext]"},
+        {test: /\.(ico)$/i, loader: "file-loader?name=./assets/favicon/[name].[ext]"},
         // {test: /\.ico$/, loader: 'file-loader?name=[name].[ext]'}
 		]
 	}

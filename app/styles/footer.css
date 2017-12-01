@@ -1,0 +1,50 @@
+.footer {
+    font-size: 9px;
+    color: #303030;
+    padding: 9px;
+
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.logofooter {
+    padding-left: 15px;
+    height: 20px;
+    margin-top: 3px;
+}
+
+
+.data {
+    padding-right: 50px;
+}
+
+.data, .web {
+    float: right;
+}
+
+span, a {
+    position: relative;
+    padding: 0 15px;
+    line-height: 23px;
+    float: left;
+
+    &:not(:first-child):before {
+        content:'';
+        position: absolute;
+        left: 0;
+        top: 7px;
+        bottom:7px;
+        width: 1px;
+        background-color: #B9B9B9;
+    }
+}
+
+a {
+    text-decoration: none;
+    color: #303030;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}

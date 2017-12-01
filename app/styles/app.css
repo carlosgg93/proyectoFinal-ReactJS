@@ -1,0 +1,87 @@
+html {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 100%;
+    //min-width: 1024px;
+}
+*, *:before, *:after {
+    -webkit-box-sizing: inherit;
+    -moz-box-sizing: inherit;
+    box-sizing: inherit;
+}
+
+body
+{
+    font-size: 13px;
+    font-family: "Roboto", Arial, sans-serif;
+    text-rendering: optimizeLegibility !important;
+    -webkit-font-smoothing: antialiased !important;
+    height: 100%;
+    background-color: #F6F6F6;
+}
+
+.body-inner {
+    background-color: #FFF;
+    position:relative;
+}
+
+.body-inner::before{
+    height: 900px;
+    content:'';
+    position:absolute;
+    left:0;
+    width: 70px;
+    //background-color: #DC6255;
+    background-color: #731111;
+    top:0;
+    z-index:0;
+}
+.body-inner::after{
+    box-shadow: 0 -10px 10px rgba(0,0,0,0.15);
+    content:'';
+    position:absolute;
+    right:0;
+    left: 0px;
+    background-color: white;
+    top:0;
+    height: 900px;
+    z-index:-1;
+}
+
+.body {
+    //max-width: 1024px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: #F6F6F6;
+    border-top: 1px solid #E9EAEB;
+}
+
+.content {
+    padding-bottom: 60px;
+    margin-left: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+#app {
+    height: 100%;
+}
+
+.app {
+    width: 100%;
+}
+
+.app-inner {
+    //overflow: auto;
+}
+
+.div-inner {
+    display: table;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}

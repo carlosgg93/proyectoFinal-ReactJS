@@ -1,20 +1,20 @@
 import React, { Component } from 'react';
+import '../styles/header.css';
 
 class Header extends Component {
+
 	constructor(props){
 		super(props);
-
-		// this.state ={
-		// 	data:false
-		// }
-	}	
+	}
 
 	render() {
 		return (
 			<div className="header">
-              <div className="div-inner">
-				HEADER
-              </div>
+                <div className="div-inner">
+                    <div className="logo">
+                        <img src='./assets/images/logo-promax.svg'/>
+                    </div>
+                </div>
             </div>
 		);
 	}

@@ -1,0 +1,21 @@
+.header
+{
+    background-color: #2D2D2D;
+    color: #D5D5D5;
+    padding: 0px;
+}
+
+.div-inner {
+    display: table;
+    //padding: 0px 20px;
+}
+
+.logo {
+    margin: 18px 0 18px 20px;
+    //height: 26px;
+    float: left;
+}
+
+img {
+    height: 100%;
+}

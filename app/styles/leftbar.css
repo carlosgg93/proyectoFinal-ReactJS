@@ -1,0 +1,130 @@
+.leftbar {
+    min-width: 70px;
+    width: 70px;
+    //background-color: #DC6255;
+    background-color: #731111;
+    bottom: 0;
+    top: 0;
+    display: inline-block;
+}
+
+.leftbar-inner {
+        //display: table;
+        cursor:pointer;
+}
+
+.leftbar-inner > div {
+    height: 60px;
+    width: 70px;
+    //border-bottom: 1px solid #DF7368;
+    position: relative;
+}
+
+.leftbar-inner > div:hover {
+    background-color: #540d0d
+}
+
+.leftbar-inner > div .active {
+    background-color: #540d0d;
+}
+
+.leftbar-inner > div .active > svg > path{
+    opacity: 1;
+}
+
+.leftbar-inner > div .active > svg > path::after{
+    content: '';
+    position: absolute;
+    top: 22px;
+    right: 0;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-right: 6px solid #FFF;
+}
+
+
+.todolist > img {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+}
+
+.todolist .titleLeftBar{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 21px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.time > img {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+}
+
+.time .titleLeftBar{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 21px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.bootstrapClass > img {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+}
+
+.bootstrapClass .titleLeftBar{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 21px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.gallery > img {
+    position: relative;
+    margin-top: 7px;
+    margin-left: 12px;
+    width: 45px;
+    height: 45px;
+}
+
+.gallery .titleLeftBar{
+    color: white;
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 21px;
+    vertical-align: top;
+    display: inline-block;
+}
+
+.svg-wrapper {
+    width: 33px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 18px;
+}
+
+svg > path {
+  fill: #FFF;
+  opacity: 0.33;
+}
+
+svg {
+    display: block;
+    margin: auto;
+}
+
